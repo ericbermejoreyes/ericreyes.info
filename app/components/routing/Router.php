@@ -1,7 +1,7 @@
 <?php
+namespace components\routing;
 
-use app\components\http\Request;
-
+use components\http\Request;
 // The router
 class Router
 {
@@ -46,7 +46,10 @@ class Router
 		foreach (self::$routes[$method] as $route)
 		{
 			if ($route['path'] === $request->request['path'])
-				$route['action']($request);
+				$action = explode(':', $route['action']);
+				$controller = new $action[0]();
+				$action = end($action);
+				$controller->$action();
 		}
 	}
 }

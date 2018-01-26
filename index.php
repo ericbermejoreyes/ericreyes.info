@@ -1,11 +1,5 @@
 <?php
-define('ROOT', realpath(dirname(__FILE__)));
+define('ROOT_DIR', realpath(dirname(__FILE__)));
 
-require ROOT.'/Autoloader.php';
-require ROOT.'/Router.php';
+require ROOT_DIR.'/Autoloader.php';
 
-Router::GET('/', function ($request) {
-	include 'web/views/index.html';
-});
-
-Router::Decide();

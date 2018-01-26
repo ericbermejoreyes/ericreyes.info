@@ -1,5 +1,5 @@
 <?php
-namespace app\components\http;
+namespace components\http;
 
 class Request
 {
