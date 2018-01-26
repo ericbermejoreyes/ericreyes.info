@@ -48,7 +48,7 @@ a, a:link, a:active, a:hover {
 
 #brand svg {
 	width: 100%;
-	fill: #0dbac9;
+	fill: #FF3E26;
 }
 
 #footer-logo {
@@ -110,6 +110,15 @@ a, a:link, a:active, a:hover {
 	width: 150px;
 }
 
+.highlight {
+	color: #FF3E26;
+}
+
+.super-highlight {
+	font-weight: 700;
+	color: #FF3E26;
+}
+
 .svg {
 	display: none;
 }
@@ -119,7 +128,7 @@ a, a:link, a:active, a:hover {
 	display: block;
 	height: 30px;
 	width: auto;
-	fill: #0dbac9;
+	fill: #304C59;
 }
 
 .row {
