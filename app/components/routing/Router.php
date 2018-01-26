@@ -45,11 +45,14 @@ class Router
 
 		foreach (self::$routes[$method] as $route)
 		{
-			if ($route['path'] === $request->request['path'])
+			if ($route['path'] === $request->request['path']) 
+			{
 				$action = explode(':', $route['action']);
 				$controller = new $action[0]();
 				$action = end($action);
 				$controller->$action();
+				return;
+			}
 		}
 	}
 }
