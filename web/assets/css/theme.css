@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 0.7;
 }
 
-h1 { font-size: 5em; }
+h1 { font-size: 12vmin; }
 
 
 a, a:link, a:active, a:hover {
@@ -131,7 +131,11 @@ a, a:link, a:active, a:hover {
 .col-full { flex: 0 1 100%; }
 .col-fill { flex: 1; }
 
-.col-md-3 { flex: 0 1 33.3%; }
+.col-sm-3 { flex: 0 1 33.3%; }
+
+@media screen and (min-width: 480px) {
+	.col-md-3 { flex: 0 1 33.3%; }
+}
 
 .flex-i-center { align-items: center; }
 .flex-j-center { justify-content: center; }
@@ -145,6 +149,10 @@ a, a:link, a:active, a:hover {
 .mb30 { margin-bottom: 30px; }
 .mb50 { margin-bottom: 50px; }
 .mb100 { margin-bottom: 100px; }
+
+
+.p20 { padding: 20px; }
+
 
 .ph10 { 
 	padding-left: 10px;

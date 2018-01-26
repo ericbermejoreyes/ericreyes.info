@@ -35,23 +35,23 @@
 		<div>
 			<img src="web/assets/img/about.svg" alt="About" class="svg center" id="about">
 		</div>
-		<div class="mt50 ta-center">
+		<div class="mt50 ta-center p20">
 			<span>
 				I am a creative professional with strong experience in <br>
 				Web Developement and Web Design, which involves client & server side <br>
 				web programming, Graphics and UX/UI design.
 			</span>
 		</div>
-		<div class="row mt100 max-w800 center mb100">
-			<div class="col-md-3 ph20">
+		<div class="row mt50 max-w800 center mb100">
+			<div class="col-md-3 p20">
 				<img class="svg svg-h2 mb30" src="web/assets/img/a_coder.svg" alt="A Coder">
 				Currently a full time Web Developer. Specialized in developing functional web applications that passes clients standard, specifications and requirements.
 			</div>
-			<div class="col-md-3 ph20">
+			<div class="col-md-3 p20">
 				<img class="svg svg-h2 mb30" src="web/assets/img/a_creative.svg" alt="A Creative">
 				2 years of experience as a Web Designer (UX/UI, Graphics, Logo, Branding and Ads). Satisfying every clients with solid, clean and unique designs that match the business brand and needs.
 			</div>
-			<div class="col-md-3 ph20">
+			<div class="col-md-3 p20">
 				<img class="svg svg-h2 mb30" src="web/assets/img/and_also.svg" alt="and also">
 				A Hobbiyist. During spare times, I do art drawings specially doodling. Just to unleash more of my creativity, to express and to release stress.
 			</div>
