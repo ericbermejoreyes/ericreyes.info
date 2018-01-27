@@ -53,11 +53,11 @@
 </head>
 <body>
 	<div>
-		<img src="web/assets/img/cancel_icon.svg" class="svg" id="hashtag">&nbsp;&nbsp;
-		<img src="web/assets/img/oops_404.svg" class="svg" id="img-404">
-		<div>Are you lost? <a href="/ericreyes.info" class="highlight">Click Here</a></div>
+		<img src="http://localhost/ericreyes.info/web/assets/img/cancel_icon.svg" class="svg" id="hashtag">&nbsp;&nbsp;
+		<img src="http://localhost/ericreyes.info/web/assets/img/oops_404.svg" class="svg" id="img-404">
+		<div>Are you lost? Back to <a href="/ericreyes.info" class="highlight">Homepage</a></div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="web/assets/js/imgsvg.js"></script>
+	<script src="http://localhost/ericreyes.info/web/assets/js/imgsvg.js"></script>
 </body>
 </html>
