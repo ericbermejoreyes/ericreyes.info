@@ -52,8 +52,8 @@
 				2 years of experience as a <span class="highlight">Web Designer (UX/UI, Graphics, Logo, Branding and Ads)</span>. Satisfying every clients with solid, clean and unique designs that match the business brand and needs.
 			</div>
 			<div class="col-md-3 p20">
-				<img class="svg svg-h2 mb30" src="<?php asset('img/a_creative.svg'); ?>" alt="and also">
-				A Hobbiyist. During spare times, I do art drawings specially doodling. Just to unleash more of my creativity, to express and to release stress.
+				<img class="svg svg-h2 mb30" src="<?php asset('img/and_also.svg'); ?>" alt="and also">
+				A Hobbiyist. Has the love for arts, doodling is his past time.
 			</div>
 		</div>
 	</section>
