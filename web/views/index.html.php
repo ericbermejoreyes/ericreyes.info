@@ -8,11 +8,25 @@
 	<link rel="stylesheet" href="<?php asset('css/theme.css'); ?>">
 </head>
 <body id="home">
+	<div id="sticky-menu">
+		<div class="row ph20">
+			<div class="col-auto ph20 pv10">
+				<a id="sticky-logo" href="<?php echo HOSTNAME; ?>"><img src="web/assets/img/logo.svg" alt="Eric-Reyes,logo,brand" class="svg"></a>
+			</div>
+			<div class="col-fill ph20 pv10 row flex-i-center flex-j-right">
+				<div class="top-nav">
+					<a href="#home" class="ph10">HOME</a>
+					<a href="#about-section" class="ph10">ABOUT</a>
+					<a href="#contact-section" class="ph10">CONTACT</a>
+				</div>
+			</div>
+		</div>
+	</div>
 	<header class="pv30">
 		<div id="brand" class="center">
-			<a href="#"><img src="web/assets/img/logo.svg" alt="Eric-Reyes,logo,brand" id="logo" class="svg mb30"></a>
+			<a id="logo" href="<?php echo HOSTNAME; ?>"><img src="web/assets/img/logo.svg" alt="Eric-Reyes,logo,brand" class="svg mb30"></a>
 		</div>
-		<div id="top-nav" class="row flex-j-center">
+		<div class="top-nav row flex-j-center">
 			<a href="#home" class="ph10">HOME</a>
 			<a href="#about-section" class="ph10">ABOUT</a>
 			<a href="#contact-section" class="ph10">CONTACT</a>

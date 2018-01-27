@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>404 Page Not Found!</title>
-	<link rel="shortcut icon" href="web/assets/img/favicon.png" type="image/png">
+	<link rel="shortcut icon" href="<?php asset('img/favicon.png'); ?>" type="image/png">
 	<style>
 		@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 		
@@ -53,11 +53,11 @@
 </head>
 <body>
 	<div>
-		<img src="http://localhost/ericreyes.info/web/assets/img/cancel_icon.svg" class="svg" id="hashtag">&nbsp;&nbsp;
-		<img src="http://localhost/ericreyes.info/web/assets/img/oops_404.svg" class="svg" id="img-404">
-		<div>Are you lost? Back to <a href="/ericreyes.info" class="highlight">Homepage</a></div>
+		<img src="<?php asset('img/cancel_icon.svg'); ?>" class="svg" id="hashtag">&nbsp;&nbsp;
+		<img src="<?php asset('img/oops_404.svg'); ?>" class="svg" id="img-404">
+		<div>Are you lost? Back to <a href="<?php echo HOSTNAME; ?>" class="highlight">Homepage</a></div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="http://localhost/ericreyes.info/web/assets/js/imgsvg.js"></script>
+	<script src="<?php asset('js/imgsvg.js'); ?>"></script>
 </body>
 </html>
