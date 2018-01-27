@@ -64,9 +64,16 @@
 		
 	</section>
 	<footer class="pv30">
-		<span class="row max-w800 center ph20 fw100 fs10">
-			© <?php echo date("Y") ?>. All Rights Reserved, Designed and Developed by &nbsp;<img src="web/assets/img/logo.svg" alt="footer-logo" class="svg" id="footer-logo">
-		</span>
+		<div class="row max-w800 center flex-i-center">
+			<div class="col-md-6">
+				<div class="row ph20 fw100 fs10">
+					© <?php echo date("Y") ?>. All Rights Reserved, Designed and Developed by &nbsp;<img src="web/assets/img/logo.svg" alt="footer-logo" class="svg" id="footer-logo">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row ph20 fw100 fs12 flex-i-center flex-j-right"><img src="web/assets/img/email_icon.svg" class="svg icon-sm fill-lightgray">&nbsp;eric.bermejo.reyes@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;<img src="web/assets/img/hashtag_icon.svg" class="svg icon-sm fill-lightgray">&nbsp;+639086257190</div>
+			</div>
+		</div>
 	</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="web/assets/js/imgsvg.js"></script>
