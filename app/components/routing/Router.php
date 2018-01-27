@@ -52,6 +52,8 @@ class Router
 				$action = end($action);
 				$controller->$action();
 				return;
+			} else {
+				include 'web/views/404.html.php';
 			}
 		}
 	}
