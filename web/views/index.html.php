@@ -17,6 +17,7 @@
 				<div class="top-nav">
 					<a href="#home" class="ph10">HOME</a>
 					<a href="#about-section" class="ph10">ABOUT</a>
+					<a href="#skills-section" class="ph10">SKILLS</a>
 					<a href="#contact-section" class="ph10">CONTACT</a>
 				</div>
 			</div>
@@ -29,6 +30,7 @@
 		<div class="top-nav row flex-j-center">
 			<a href="#home" class="ph10">HOME</a>
 			<a href="#about-section" class="ph10">ABOUT</a>
+			<a href="#skills-section" class="ph10">SKILLS</a>
 			<a href="#contact-section" class="ph10">CONTACT</a>
 		</div>
 	</header>
@@ -56,7 +58,7 @@
 				web programming, Graphics and UX/UI design.
 			</span>
 		</div>
-		<div class="row mt50 max-w800 center mb100">
+		<div class="row mt50 max-w800 center">
 			<div class="col-md-3 p20">
 				<img class="svg svg-h2 mb30" src="<?php asset('img/a_coder.svg'); ?>" alt="A Coder">
 				Currently a full time <span class="highlight">Web Developer</span>. Specialized in developing functional web applications that passes clients standard, specifications and requirements.
@@ -71,11 +73,29 @@
 			</div>
 		</div>
 	</section>
-	<section id="works-section">
-		
+	<section id="skills-section">
+		<div class="p0 row">
+			<div id="design" class="col-md-6 col-sm-12 row flex-i-center flex-j-center">
+				<div>
+					<h2>i DESIGN</h2><br>
+					<div>
+						Web Mockup, Graphics, Logo, Brand, UX/UI<br>
+						Photoshop, Illustrator
+					</div>
+				</div>
+			</div>
+			<div id="development" class="col-md-6 col-sm-12 row flex-i-center flex-j-center">
+				<div">
+					<h2>i DEVELOP</h2><br>
+					<div>
+						HTML, CSS, Javascript, PHP, MySQL<br>
+						Symfony, Laravel, NodeJS, jQuery, AngularJS
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section id="contact-section">
-		
 	</section>
 	<footer class="pv30">
 		<div class="row max-w800 center flex-i-center">

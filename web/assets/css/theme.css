@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
 @font-face {
 	font-family: 'Permanent Marker';
 	src: url(../fonts/PermanentMarker.ttf);
@@ -15,6 +16,14 @@
 	box-sizing: border-box;
 }
 
+input, textarea {
+	display: block;
+	width: 100%;
+	border: 1px solid lightgray;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -35,6 +44,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 { font-size: 12vmin; }
+
+h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 10vmin;
+}
 
 
 a, a:link, a:active, a:hover {
@@ -123,9 +137,45 @@ a, a:link, a:active, a:hover {
 	left: 0;
 	background: linear-gradient(90deg, #ffffff, rgba(255, 255, 255, 0.8), #ffffff);
 	z-index: 1000;
-	transition: top 300ms cubic-bezier(1, 0, 0, 1);
+	transition: top 500ms cubic-bezier(1, 0, 0, 1);
 	box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.2);
 }
+
+#design, #development {
+	height: 100vw;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	mask-repeat: no-repeat;
+	mask-size: 100% 100%;
+}
+
+
+#design {
+	color: #304C59;
+	background-image: url(../img/bg01.jpg);
+	-webkit-mask-box-image: url(../img/des_clip.svg);
+	mask-image: url(../img/des_clip.svg);
+}
+
+#development {
+	color: #FCF7FF;
+	background-image: url(../img/code.jpg);
+	-webkit-mask-box-image: url(../img/dev_clip.svg);
+	mask-image: url(../img/dev_clip.svg);
+}
+
+#skills-section:before {
+	content: 'hey';
+	background: #171717;
+	display: block;
+	width: 100%;
+	height: 50%;
+	bottom: 0;
+	position: absolute;
+	z-index: 0;
+}
+
+.bgw { background: #ffffff; }
 
 .sticky-menu-show {
 	top: 0 !important;
@@ -164,10 +214,20 @@ a, a:link, a:active, a:hover {
 
 .col-sm-3 { flex: 0 1 33.3%; }
 .col-sm-6 { flex: 0 1 50%; }
+.col-sm-12 { flex: 0 1 100%; }
+
+
+@media screen and (max-width: 680px) {
+	#banner { padding: 100px 0; }
+	#development { top: -21.5vw; }
+}
+
 
 @media screen and (min-width: 680px) {
+	#design, #development { height: 50vw; }
 	.col-md-3 { flex: 0 1 33.3%; }
 	.col-md-6 { flex: 0 1 50%; }
+	.col-md-12 { flex: 0 1 100%; }
 	.row { padding: 0; }
 }
 
@@ -185,9 +245,9 @@ a, a:link, a:active, a:hover {
 .mb50 { margin-bottom: 50px; }
 .mb100 { margin-bottom: 100px; }
 
-
+.p0 { padding: 0 !important; }
 .p20 { padding: 20px; }
-
+.p30 { padding: 30px; }
 
 .ph10 { 
 	padding-left: 10px;
