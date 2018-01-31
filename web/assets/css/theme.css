@@ -143,7 +143,7 @@ a, a:link, a:active, a:hover {
 
 #design, #development {
 	height: 100vw;
-	background-size: 100%;
+	background-size: 150%;
 	mask-repeat: no-repeat;
 	mask-size: 100% 100%;
 }
@@ -174,6 +174,15 @@ a, a:link, a:active, a:hover {
 	z-index: 0;
 }
 
+#contact-section {
+	top: -50px;
+	color: #FCF7FF;
+}
+
+#contact-section svg {
+	height: 24px;
+}
+
 .bgw { background: #ffffff; }
 
 .sticky-menu-show {
@@ -182,6 +191,10 @@ a, a:link, a:active, a:hover {
 
 .highlight {
 	color: #FF3E26;
+}
+
+.hidden {
+	opacity: 0;
 }
 
 .super-highlight {
@@ -285,7 +298,6 @@ a, a:link, a:active, a:hover {
 .ta-left { text-align: left; }
 .ta-right { text-align: right; }
 
-
 .max-w800 {
 	width: 100%;
 	max-width: 800px;
@@ -295,7 +307,19 @@ a, a:link, a:active, a:hover {
 	width: 16px;
 }
 
+.icon-md {
+	width: 32px;
+}
+
 .fill-lightgray {
 	fill: lightgray;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.w32 {
+	width: 32px;
 }
 
