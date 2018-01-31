@@ -107,8 +107,8 @@
 				<div class="row flex-j-center">
 					<div>
 						<a href="https://www.facebook.com/ericbermejoreyes" target="_blank" class="inline-block w32"><img src="<?php asset('img/facebook_icon.svg') ?>" class="svg icon-md fill-lightgray" alt=""></a>
-						<a href="https://github.com/ericbermejoreyes" target="_blank" class="inline-block w32"><img src="<?php asset('img/linkedin_icon.svg') ?>" class="svg icon-md fill-lightgray" alt=""></a>
-						<a href="https://www.linkedin.com/in/ericbermejoreyes/" target="_blank" class="inline-block w32"><img src="<?php asset('img/github_icon.svg') ?>" class="svg icon-md fill-lightgray" alt=""></a>
+						<a href="https://www.linkedin.com/in/ericbermejoreyes/" target="_blank" class="inline-block w32"><img src="<?php asset('img/linkedin_icon.svg') ?>" class="svg icon-md fill-lightgray" alt=""></a>
+						<a href="https://github.com/ericbermejoreyes" target="_blank" class="inline-block w32"><img src="<?php asset('img/github_icon.svg') ?>" class="svg icon-md fill-lightgray" alt=""></a>
 					</div>
 				</div>
 			</div>
