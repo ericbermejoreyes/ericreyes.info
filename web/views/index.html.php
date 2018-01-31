@@ -59,7 +59,7 @@
 			<div class="mt50 ta-center p20">
 				<span>
 					I am a <span class="super-highlight">Creative Professional</span> with strong experience in <br>
-					Web Developement and Web Design, which involves client & server side <br>
+					Web Development and Web Design, which involves client & server side <br>
 					web programming, Graphics and UX/UI design.
 				</span>
 			</div>
@@ -74,7 +74,7 @@
 				</div>
 				<div class="animated fadeInUpShort slow hidden col-md-3 p20 p20 delay-250" data-id="4">
 					<img class="svg svg-h2 mb30" src="<?php asset('img/and_also.svg'); ?>" alt="and also">
-					A Hobbiyist. Has the love for arts, doodling is his past time.
+					A Hobbiyist. Has the love for arts, doodling is my past time.
 				</div>
 			</div>
 		</div>
